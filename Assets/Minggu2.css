@@ -1,0 +1,108 @@
+.container {
+    background-color: none;
+    width: auto;
+    height: auto;
+    border: 20px solid white;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.body {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.sidebar {
+    background-color: orange;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;;
+    height: 695px;
+    width: 25%;
+    display: flex;
+}
+
+.mainContent {
+    background-color: wheat;
+    height: 695px;
+    width: 100%;
+    display: flex;
+
+}
+
+.nav {
+    background-color: orange;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: orange;
+    color:white;
+}
+
+.p_header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.p_header1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.mrow { 
+    height: 20px; 
+}
+.brow { 
+    height: 10px; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border: 0px; 
+}
+
+body {
+    background-image: url("Background-img-body.jpg");
+}
+
+footer {
+    background-color:orange;
+    border-bottom: 5px solid black;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
